@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/f/xjvjejkb" method="POST">
+        <label for="fname">Imię:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Nazwisko:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="email">e-mail:</label><br>
+        <input type="email" id="email" name="mail"><br>
+
+        <label for="number">Telefon:</label><br>
+        <input type="number" id="number" name="quanity"><br>
+
+        <label for="miasto">Miasto:</label>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br>
+
+        <input type="radio" id="mezczyzna" value="mezczyzna" name="gender" checked><label
+            for="mezczyzna">Mężczyzna</label>
+        <input type="radio" id="kobieta" value="kobieta" name="gender"><label for="kobieta">Kobieta</label><br>
+
+        <label for="message">Wiadomość:</label><br>
+        <textarea maxlength="1000" id="message" name="message"></textarea><br>
+
+        <input type="checkbox" id="zgoda" name="agreement"><label for="zgoda">Wyrażam zgodę na ptrzetwarzanie danych
+            osobowych</label><br>
+
+        <input type="submit" value="Wyslij"><br>
+    </form>
+
+
+
+</body>
+
+</html>
